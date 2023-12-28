@@ -2,6 +2,9 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
+body .box {
+  padding: 50px;
+}
 
 #different .box {
   position: relative;
@@ -24,9 +27,6 @@ body {
   top: 120px;
 }
 
-#step .box {
-  padding: 50px;
-}
 #step .box .minibox {
   width: 150px;
   height: 150px;
@@ -47,13 +47,10 @@ body {
   height: 100px;
 }
 
-#demo .box {
-  padding: 50px;
-}
 #demo .box .minibox {
   width: 150px;
   height: 80px;
-  border: 1px solid purple;
+  border: 3px solid purple;
   color: white;
   background-color: purple;
 }
@@ -66,10 +63,13 @@ body {
   display: flex;
   justify-content: center;
 }
-
-#chance .box {
-  padding: 50px;
+@media screen and (max-width: 800px) {
+  #demo .box .minibox {
+    width: 100px;
+    height: 60px;
+  }
 }
+
 #chance .box .minibox {
   font-size: 30px;
   width: 150px;
@@ -101,7 +101,6 @@ body {
 
 #boxes .box {
   position: relative;
-  padding: 50px;
 }
 #boxes .box .minibox {
   width: 200px;
@@ -120,7 +119,6 @@ body {
 
 #texts .box {
   position: relative;
-  padding: 50px;
 }
 #texts .box .minibox {
   width: 200px;
