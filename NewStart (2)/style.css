@@ -67,16 +67,34 @@ body {
   justify-content: center;
 }
 
+#chance .box {
+  padding: 50px;
+}
 #chance .box .minibox {
+  font-size: 30px;
   width: 150px;
   height: 150px;
   border: 1px solid grey;
   border-radius: 50%;
   background-color: brown;
   color: white;
+  transition: 3s;
+}
+#chance .box .minibox:hover {
+  width: 150px;
+  height: 150px;
+  border: 3px solid brown;
+  border-radius: 10px;
 }
 #chance .box .minibox h1 {
   display: flex;
   justify-content: center;
   padding: 60px;
+}
+@media screen and (max-width: 800px) {
+  #chance .box .minibox {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
 }/*# sourceMappingURL=style.css.map */
