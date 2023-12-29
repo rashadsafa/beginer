@@ -56,6 +56,7 @@ body .box {
 }
 #demo .box .minibox:hover {
   background-color: brown;
+  cursor: pointer;
 }
 #demo .box .minibox h1 {
   color: white;
@@ -67,6 +68,12 @@ body .box {
   #demo .box .minibox {
     width: 100px;
     height: 60px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo .box .minibox {
+    width: 60px;
+    height: 30px;
   }
 }
 
