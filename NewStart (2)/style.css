@@ -71,13 +71,15 @@ body .box {
   justify-content: center;
 }
 @media screen and (max-width: 800px) {
-  #demo .box .minibox {
+  #demo .box {
     width: 100px;
     height: 60px;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 500px) {
-  #demo .box .minibox {
+  #demo .box {
     width: 60px;
     height: 30px;
   }
