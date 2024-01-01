@@ -46,6 +46,12 @@ body .box {
   width: 100px;
   height: 100px;
 }
+@media screen and (max-width: 800px) {
+  #step .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 #demo .box .minibox {
   width: 150px;
